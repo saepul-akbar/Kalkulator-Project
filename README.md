@@ -33,11 +33,19 @@ Gambar tampilan kalkulator.
 
 ## Struktur Folder
 
-Penjelasan folder project.
+Kalkulator-Project/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── README.md
 
 ## Cara Menjalankan Project
 
-Instruksi membuka project secara lokal.
+1. Clone repository ini.
+2. Buka folder project.
+3. Jalankan file index.html di browser.
 
 ## Yang Saya Pelajari
 

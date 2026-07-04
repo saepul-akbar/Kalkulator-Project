@@ -21,28 +21,28 @@
             </div>
             <div class="calc-buttons">
                 <!-- Row 1 -->
-                <button class="calc-button calc-button--clear">C</button>
-                <button class="calc-button calc-button--delete">DEL</button>
-                <button class="calc-button calc-button--operator">÷</button>
-                <button class="calc-button calc-button--operator">×</button>
+                <button class="calc-button calc-button--clear" onclick="clearDisplay()">C</button>
+                <button class="calc-button calc-button--delete" onclick="deleteLast()">DEL</button>
+                <button class="calc-button calc-button--operator" onclick="appendOperator('÷')">÷</button>
+                <button class="calc-button calc-button--operator" onclick="appendOperator('×')">×</button>
                 <!-- Row 2 -->
-                <button class="calc-button">7</button>
-                <button class="calc-button">8</button>
-                <button class="calc-button">9</button>
-                <button class="calc-button calc-button--operator">-</button>
+                <button class="calc-button" onclick="appendNumber('7')">7</button>
+                <button class="calc-button" onclick="appendNumber('8')">8</button>
+                <button class="calc-button" onclick="appendNumber('9')">9</button>
+                <button class="calc-button calc-button--operator" onclick="appendOperator('-')">-</button>
                 <!-- Row 3 -->
-                <button class="calc-button">4</button>
-                <button class="calc-button">5</button>
-                <button class="calc-button">6</button>
-                <button class="calc-button calc-button--operator">+</button>
+                <button class="calc-button" onclick="appendNumber('4')">4</button>
+                <button class="calc-button" onclick="appendNumber('5')">5</button>
+                <button class="calc-button" onclick="appendNumber('6')">6</button>
+                <button class="calc-button calc-button--operator" onclick="appendOperator('+')">+</button>
                 <!-- Row 4 -->
-                <button class="calc-button">1</button>
-                <button class="calc-button">2</button>
-                <button class="calc-button">3</button>
-                <button class="calc-button calc-button--equal">=</button>
+                <button class="calc-button" onclick="appendNumber('1')">1</button>
+                <button class="calc-button" onclick="appendNumber('2')">2</button>
+                <button class="calc-button" onclick="appendNumber('3')">3</button>
+                <button class="calc-button calc-button--equal" onclick="calculate()">=</button>
                 <!-- Row 5 -->
-                <button class="calc-button span-2">0</button>
-                <button class="calc-button">.</button>
+                <button class="calc-button span-2" onclick="appendNumber('0')">0</button>
+                <button class="calc-button" onclick="appendNumber('.')">.</button>
             </div>
         </div>
     </main>

@@ -129,6 +129,11 @@ header {
     user-select: none;
 }
 
+.calc-button:active {
+    box-shadow: inset 4px 4px 8px var(--shadow-dark), -4px -4px 8px var(--shadow-light);
+    transform: scale(0.96);
+}
+
 .calc-button--clear {
     color: var(--error);
 }
@@ -144,6 +149,10 @@ header {
     background-color: var(--primary);
     color: var(--on-primary);
     box-shadow: 6px 6px 12px var(--shadow-dark), -6px -6px 12px var(--shadow-light), inset 4px 4px 8px rgba(255,255,255,0.2);
+}
+
+.calc-button--equal:active {
+    box-shadow: inset 4px 4px 12px rgba(0,0,0,0.2);
 }
 
 .span-2 {

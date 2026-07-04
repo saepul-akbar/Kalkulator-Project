@@ -8,7 +8,7 @@ Sebuah aplikasi web sederhana untuk melakukan operasi matematika dasar. Project 
 
 ## Screenshot
 
-[Tampilan Neumorph Calculator.](/image/image%201.png)
+![Tampilan Neumorph Calculator.](/image/image%201.png)
 
 ## Fitur
 
@@ -33,15 +33,17 @@ Sebuah aplikasi web sederhana untuk melakukan operasi matematika dasar. Project 
 
 ## Struktur Folder
 
+```text
 Kalkulator-Project/
 ├── index.html
 ├── image/
-│   └── image 1.png
+│   └── image-1.png
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
 └── README.md
+```
 
 ## Cara Menjalankan Project
 

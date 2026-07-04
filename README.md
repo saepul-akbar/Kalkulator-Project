@@ -8,7 +8,7 @@ Sebuah aplikasi web sederhana untuk melakukan operasi matematika dasar. Project 
 
 ## Screenshot
 
-Gambar tampilan kalkulator.
+[Tampilan Neumorph Calculator.](/image/image%201.png)
 
 ## Fitur
 
@@ -35,6 +35,8 @@ Gambar tampilan kalkulator.
 
 Kalkulator-Project/
 ├── index.html
+├── image/
+│   └── image 1.png
 ├── css/
 │   └── style.css
 ├── js/
